@@ -1,4 +1,4 @@
-h1 {
+.heading {
     color:darkgreen;
     font-family: Georgia;
     text-align: center;
@@ -10,8 +10,13 @@ h2 {
 }
 
 p {
-    line-height: 25 px;
+    line-height: 25px;
     margin-block: 70px;
+}
+
+ul li {
+    font-weight: bold;
+    font-style: italic;
 }
 
 a {
@@ -22,7 +27,7 @@ a:hover {
     text-decoration: underline;
 }
 
-h5 {
+#uppercase {
     text-transform: uppercase;
 }
 
