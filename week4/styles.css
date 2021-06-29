@@ -1,0 +1,38 @@
+nav {
+    position: fixed;
+    top: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#content {
+    height: auto;
+    min-height: 500px;
+}
+
+.newpost {
+    line-height: 20px;
+    margin: 50px;
+    margin-left: 100px;  
+}
+
+.oldpost {
+    line-height: 20px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+.olderpost {
+    line-height: 20px;
+    margin: 50px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+img {
+    float: left ;
+    padding-right: 50px;
+    height: 200px;
+}
