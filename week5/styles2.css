@@ -1,4 +1,4 @@
-/* .box {
+/* .box { 
     height: 50px;
 
 }
@@ -67,7 +67,7 @@
         grid-column: 1 / 5;
         background-color: darkorchid;
     }
-} */
+}  */
 
 .boxes {
     height: 50px;
@@ -88,6 +88,7 @@
 
 #boxB {
     grid-column: 1 / 5;
+
     background-color: brown;
 }
 
@@ -140,4 +141,4 @@
         grid-column: 4 / 5;
         background-color: darkorchid;
     }
-}
+}  */
