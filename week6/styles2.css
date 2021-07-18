@@ -1,8 +1,134 @@
+html {
+    background-color: cadetblue;
+}
+
 h1 {
-    font-family: 'Hanalei', cursive;
+    font-family: 'Hanalei&display';
+    color:darkblue;
+    font-size: 60px;
+    text-align: center;
 }
 
 nav {
     font-weight: bolder;
+    font-size: 30px;
+    text-decoration: none;
 }
 
+img {
+    float: left;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+p {
+    margin: 1em;
+    padding: 0 1.5em;
+}
+
+table, th, td {
+    border: 1px solid black;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 0 1.5;
+}
+
+footer {
+    color: darkblue;
+    font-size:x-large;
+    font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        background-color: cadetblue;
+    }
+    
+
+    h1 {
+        font-family: 'Hanalei&display';
+        color:darkblue;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    nav {
+        font-weight: bolder;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    img {
+        float: left;
+        margin: 15px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    p {
+        margin: 1em;
+        padding: 0 1.5em;
+    }
+    
+    table, th, td {
+        border: 3px solid black;
+        font-weight: bolder;
+        font-style: italic;
+        padding: 0 1.5;
+    }
+    
+    footer {
+        color: darkblue;
+        font-size:x-large;
+        font-weight: bolder;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    html {
+        background-color: cadetblue;
+    }
+    
+
+    h1 {
+        font-family: 'Hanalei&display';
+        color:darkblue;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    nav {
+        font-weight: bolder;
+        font-size: 30px;
+        text-decoration: none;
+    }
+
+    img {
+        float: left;
+        margin: 15px;
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    p {
+        margin: 1em;
+        padding: 0 1.5em;
+    }
+    
+    table, th, td {
+        border: 3px solid black;
+        font-weight: bolder;
+        font-style: italic;
+        padding: 0 1.5;
+    }
+    
+    footer {
+        color: darkblue;
+        font-size:x-large;
+        font-weight: bolder;
+    }
+}
