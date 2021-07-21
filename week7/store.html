@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav>
+            <ul class="nav">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <h1 class="band-name">The Monkeys</h1>
+    </header>
+    <section class="content-section container">
+        <h2 class="section-header">MUSIC</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Album 1</span>
+                <img class="shop-item-image" src="album1.jpg" alt="black background with blue swirling lines"width="200px" height="100px" >
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 2</span>
+                <img class="shop-item-image" src="album2.jpg" alt="water splashing" width="200px" height="200px">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$10.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 3</span>
+                <img class="shop-item-image"  src="album3.jpg" alt="night sky in the valley" width="200px" height="200px">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$14.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 4</span>
+                <img class="shop-item-image" src="album4.jpg" alt="yellow background with the words make today great"width="200px" height="200px" >
+                <div class="shop-item-detail">
+                    <span class="shop-item-price" >$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Album 5</span>
+                <img  class="shop-item-image" src="album5.jpg" alt="graffiti with monkey in glasses"width="200px" height="200px" >
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$13.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+        </div>
+        <div class="shop-item">
+                <span class="shop-item-title">Album 6</span>
+                <img class="shop-item-image" src="album6.jpg" alt="black background with blue and purple dots" width="200px" height="200px">
+                <div class="shop-item-detail">
+                    <span class="shop-item-price">$12.99</span>
+                    <button class="btn btn-primary shop-item-button" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content-section container">
+        <h2 class="section-header">CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="album5.jpg" alt="graffiti with monkey in glasses" width="100px">
+                    <span class="cart-item-title">Album 5</span>
+                </div>
+                <span class="cart-price cart-column">$13.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-row">
+                <div class="cart-item cart-column">
+                    <img class="cart-item-image" src="album1.jpg" alt="black background with blue swirling lines"width="200px" height="200px" >
+                    <span class="cart-item-title">Album 1</span>
+                </div>
+                <span class="cart-price cart-column">$12.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="btn btn-danger" role="button">REMOVE</button>
+                </div>
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">TOTAL</strong>
+                <span class="cart-total-price">$16.98</span>
+            </div>
+                <button class="btn btn-primary btn-purchase" role="button">PURCHASE</button>
+    </section>
+    <footer class="main-footer">
+        <h3 class="band">The Monkeys</h3>
+        <div class="container main-footer-container">
+        <ul class="nav footer-nav">
+            <li><img src="youtube logo.png" alt="red olay button" width="150px"></li>
+            <li><img src="facebook logo.jpg" alt="blue square with an f" width="30px"></li>
+            <li><img src="instagram.jpg" alt="colorful square" width="40px"></li>
+        </ul>
+        </div>
+    </footer>
+</body>
+</html>
